@@ -82,6 +82,39 @@ Content-Type: application/json
   "errorCode": "Known Error"
 }
 
+
+HTTP POST
+
+Request 
+
+URL:  http://hostname:port/v1/products
+Method: PUT
+Content-Type: application/json
+Body:
+{ 
+  "name": "The Big Lebowski [Blu-rayuu]",
+  "current_price": {
+    "value": 26.37,
+    "currency_code": "USD"
+  }
+}
+Response
+
+Success
+
+Status: 201
+Content-Type: application/json
+{
+  "id": 13860428,
+  "name": "The Big Lebowski [Blu-rayuu]",
+  "current_price": {
+    "value": 26.37,
+    "currency_code": "USD"
+  }
+}
+
+
+
 HTTP PUT
 
 Request 
