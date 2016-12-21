@@ -174,11 +174,7 @@ REST Assured is used to implement integration tests
 
 Execution
 
-Start MyRetail Service:
-$ mvn spring-boot:run
-
-
-Run integration test (MyRetaill Service is required to be running):
+Run integration test (myretail service api is required to be up and running):
 $ mvn test -Dtest=myretail
 
 
