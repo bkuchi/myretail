@@ -88,7 +88,7 @@ HTTP POST
 Request 
 
 URL:  http://hostname:port/v1/products
-Method: PUT
+Method: POST
 Content-Type: application/json
 Body:
 { 
